@@ -1,0 +1,33 @@
+
+#root {
+  width: 100%;
+}
+
+
+body {
+  background-color: #ffffff;
+}
+@font-face {
+  font-family: PTSerif;
+  src: URL(../public/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family:PTSerItal;
+  src: url(../public/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: Montser;
+  src: URL(../public/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family:MontserItal;
+  src: url(../public/Montserrat-Italic.ttf);
+}
+@font-face {
+  font-family: WorkSan;
+  src: URL(../public/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family:WorkSanItal;
+  src: url(../public/WorkSans-Italic.ttf);
+}

@@ -1,0 +1,63 @@
+#conSocTot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+}
+#conEmailTot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 5%;
+}
+#conTag{
+    font-family: montser;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5%;
+    color: rgb(67, 70, 79);
+}
+#socTag{
+    font-family: Montser;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+#emailTag{
+    font-family: Montser;
+    text-decoration: underline;
+    margin-bottom: 5%;
+
+}
+#conEmailPar{
+    font-family: workSan;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:-2%;
+}
+#conSocPar{
+    font-family: workSan;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:-2%;
+}
+#conAll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(67, 70, 79);
+}
+#conType{
+    display:flex;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#conTemp{
+    display: flex;
+    margin-bottom: 7%;
+}

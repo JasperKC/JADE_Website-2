@@ -1,0 +1,39 @@
+:root {
+    margin: 0;
+    padding: 0;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #393839,  #000);
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-top-style: solid;
+    border-width: 3px;
+    border-top-color:  rgb(35, 84, 43);
+  }
+
+  .flex {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 0.5%;
+    justify-content: center;
+    gap: 10px;
+  }
+  #resumeLink{
+    text-decoration: underline;
+    color: white;
+    transform: translateY(-10px);
+    font-family: montser;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px #000;
+  }
+
+  .fixInsta {
+    transform: translateY(-2px);
+  }
+  

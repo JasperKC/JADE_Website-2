@@ -1,0 +1,29 @@
+#bioTotal{
+    margin-left: 20%;
+    margin-right: 5%;
+    text-align: center;
+}
+#abTitle{
+    font-family: montSer;
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-bottom: 3%;
+    color: rgb(56, 61, 75);
+}
+#abPar{
+    font-family: WorkSan;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(56, 61, 75);
+}
+#stork{
+    width: 20%;
+    margin-right: 15%;
+}
+#abTotal{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
