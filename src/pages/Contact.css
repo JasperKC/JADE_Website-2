@@ -1,63 +1,68 @@
-#conSocTot{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 5%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#conEmailTot{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 5%;
+body {
+    background-color: #fff;
+    font-size: 1.3rem;
+    font-family: workSan;
+    color: rgb(67, 70, 69);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#conTag{
-    font-family: montser;
-    font-size: 35px;
+.contCon{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+#cardSec{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background-color:#d1d1d1;
+    border-radius: 10px;
+    border: 3px solid  rgb(35, 84, 43);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+#sect {
+    max-width: 600px;
+    display: flex;
     text-align: center;
-    text-decoration: underline;
-    margin-bottom: 5%;
-    color: rgb(67, 70, 79);
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
 }
-#socTag{
-    font-family: Montser;
-    text-decoration: underline;
-    margin-bottom: 5%;
-}
-#emailTag{
-    font-family: Montser;
-    text-decoration: underline;
-    margin-bottom: 5%;
 
+label {
+    display: block;
+    margin-bottom: 8px;
 }
-#conEmailPar{
-    font-family: workSan;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top:-2%;
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(67, 70, 69);
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-#conSocPar{
-    font-family: workSan;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top:-2%;
+#message{
+    resize:none;
 }
-#conAll{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: rgb(67, 70, 79);
+button {
+    background-color: rgb(35, 84, 43);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-#conType{
-    display:flex;
-    border-radius: 20px;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-#conTemp{
-    display: flex;
-    margin-bottom: 7%;
+
+button:hover {
+    background-color: rgb(25, 64, 33);
 }

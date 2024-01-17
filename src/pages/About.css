@@ -1,29 +1,40 @@
-#bioTotal{
-    margin-left: 20%;
-    margin-right: 5%;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:rgb(67, 70, 79);
+    font-size: 1.3rem;
+    font-family: workSan;
+}
+.contAb {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+#hsPic{
+    width: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background-color:#d1d1d1;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 #abTitle{
-    font-family: montSer;
     text-align: center;
-    /* text-decoration: underline; */
     margin-bottom: 3%;
-    color: rgb(56, 61, 75);
 }
 #abPar{
-    font-family: WorkSan;
-    font-size: 20px;
     margin-left: 5%;
     margin-right: 5%;
-    color: rgb(56, 61, 75);
 }
-#stork{
-    width: 20%;
-    margin-right: 15%;
-}
-#abTotal{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-
+@media(max-width:600px) {
+    .card{
+        display: block;
+    }
 }
