@@ -20,7 +20,7 @@ function Footer(){
                     <a href="https://open.spotify.com/user/m1vw32ve7mm333cgt6keapvc0?si=d7d76bef90b14a5c" target="_blank">
                         <img src={spotify} alt="Spotify Icon" width="35" height="35"/>
                     </a>
-                    <a id = "resumeLink" href= "https://docs.google.com/document/d/14IZxU35UlBBXUh4O09NWEZM0YgUzlo1B0D3QmPSbTTc/edit?usp=sharing" target ="_blank">Resume</a>
+                    <a id = "resumeLink" href= "https://docs.google.com/document/d/1g-1lO4sLUwmbjrSTC8Bag23aQHVza3j2/edit?usp=sharing&ouid=114679454719292032786&rtpof=true&sd=true" target ="_blank">Resume</a>
                 </div>
             </footer>
         </foot>
