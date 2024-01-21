@@ -32,7 +32,9 @@
     font-size: 18px;
     text-shadow: 1px 1px 3px #000;
   }
-
+  .footer a{
+    width: 2.5%;
+  }
   .fixInsta {
     transform: translateY(-2px);
   }
