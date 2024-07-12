@@ -8,13 +8,13 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(90deg, #393839,  #000);
+    background: linear-gradient(90deg, #393839,  #504b4b);
     color: white;
     text-align: center;
     height: 50px;
     border-top-style: solid;
     border-width: 3px;
-    border-top-color:  rgb(35, 84, 43);
+    border-top-color:  rgb(255, 255, 255);
   }
 
   .flex {
